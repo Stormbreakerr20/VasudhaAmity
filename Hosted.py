@@ -41,8 +41,6 @@ def response(prompt):
         print(e)
         return "No response"
 
-
-st.set_option('deprecation.showfileUploaderEncoding', False)
 st.set_page_config(page_title="OPDx", page_icon="🩺", layout="wide")
 
 
